@@ -195,3 +195,88 @@ width: 333px;
     flex-direction: row-reverse;
    }
 }
+/* How to play */
+.how-section{
+    background-image: url("/img/how/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 257px;
+    height: 1048px;
+}
+.how-subtitle{
+    font-family: "Racing Sans One", sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #0d0f14;
+-webkit-text-stroke: 1px #fff;
+}
+.how-list{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.how-item{
+    background-image: url("/img/how/line.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 8px 16px;
+        width: 343px;
+        height: 63px;
+display: flex;
+align-items: center;
+gap: 16px;    
+font-size: 14px;
+    line-height: 1.5;
+}
+.how-number{
+    width: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Racing Sans One", sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #0d0f14;
+-webkit-text-stroke: 1px #fff;
+}
+@media only screen and (min-width: 1440px) {
+  .how-section{
+    background-image: url("/img/how/desk.png");
+    background-size: 100% 985px;
+    height: 1440px;
+  }
+.how-subtitle{
+    font-size: 40px;
+}
+.mob{
+    display: none;
+}
+.how-list{
+    margin-top: 48px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;    
+    
+}
+.how-item{
+    height: 100px;
+        font-size: 16px;
+    padding: 16px;
+    padding-right: 0;
+    gap: 14px;
+}
+.how-number{
+   font-size: 40px; 
+}
+}
