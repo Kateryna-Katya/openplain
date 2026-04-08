@@ -50,3 +50,32 @@ background-size: 1000px 150px;
     margin-top: 0;
  }
 }
+/* About the Game */
+.title-container{
+padding-top: 10px;
+padding-bottom: 10px;
+background-image: url("/img/title/mob.png");
+background-repeat: no-repeat;
+background-position: bottom center;
+background-size: contain;
+margin-bottom: 48px;
+}
+.about-text{
+    width: 323px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.span{
+    color: #ff3d81;
+    font-weight: 700;
+}
+@media only screen and (min-width: 1440px) {
+ .title-container{
+    background-image: url("/img/title/desk.png");
+    margin-bottom: 56px;
+ }
+ .about-text{
+    width: 1069px;
+    
+ }
+}
