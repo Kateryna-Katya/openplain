@@ -1,0 +1,52 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 462px;
+    height: 813px;
+}
+.home-title{
+    margin-top: 20px;
+    font-family: "Racing Sans One", sans-serif;
+font-weight: 400;
+font-size: 59px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+text-align: center;
+color: #0d0f14;
+-webkit-text-stroke: 1px #fff;
+}
+.home-text{
+    margin-top: 32px;
+font-weight: 500;
+font-size: 18px;
+line-height: 1.5;
+color: #fafafa;
+}
+@media only screen and (min-width: 1440px) {
+ .home-section{
+background-image: url("/img/home/desk.png");
+background-size: cover;
+height: 900px;
+ }
+ .home-wrapper{
+    width: 1110px;
+        height: 156px;
+        margin-left: auto;
+        margin-right: auto;
+background-image: url("/img/home/blur.png");
+background-repeat: no-repeat;
+background-position: top right;
+background-size: 1000px 150px;
+ }
+ .home-title{
+    margin-top: 30px;
+    font-size: 80px;
+ }
+ .home-text{
+    font-size: 24px;
+    text-align: right;
+    margin-top: 0;
+ }
+}
