@@ -31,10 +31,13 @@ function initSwipers() {
   // ---------------- GALLERY ----------------
   if (!gallerySwiper) {
     gallerySwiper = new Swiper('.gallery-swiper', {
-      modules: [Navigation],
-      slidesPerView: 1.2,
+      modules: [Navigation, Autoplay],
+      slidesPerView: 1.1,
       spaceBetween: 16,
-
+      loop: true,
+      autoplay: {
+        delay: 2500,
+      },
       navigation: {
         nextEl: '.gallery-next',
         prevEl: '.gallery-prev',
