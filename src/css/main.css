@@ -442,3 +442,32 @@ font-family: "Manrope", sans-serif;
         font-size: 16px;
     }
 }
+/* contact */
+.contact-section{
+    background-image: url("/img/contact/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 167px;
+    height: 354px;
+}
+.contact-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-family: "Manrope", sans-serif;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #aab2c0;
+}
+@media only screen and (min-width: 1440px) {
+ .contact-section{
+    background-image: url("/img/contact/desk.png");
+    background-size: 100% 463px;
+    height: 626px;
+ }
+ .contact-link{
+    font-size: 16px;
+ }
+}
